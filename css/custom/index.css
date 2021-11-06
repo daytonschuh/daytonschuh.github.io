@@ -1,5 +1,108 @@
-.avatar{
-	border-radius: 50%;
-	max-width:100%;
-	max-height:100%;
+.avatar {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.avcenter {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.jumbo{
+    width: 100%;
+    height: 100%;
+}
+
+.typowrite {
+    color: #000000;
+    border-right: 0.08em solid #343a40;
+    animation: blink-caret 1.1s step-end infinite;
+    animation-delay: 1s;
+}
+
+.fade-in-5 {
+    opacity: 0;
+    animation: 3s ease 0s normal forwards 1 fade-in;
+    animation-delay: 5s;
+}
+
+.flashblue{
+    animation: 1.7s ease flashblue;
+}
+
+.flashred {
+    animation: .7s ease flashred;
+}
+
+/* The typowriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #343a40
+    }
+}
+
+/* The fade in effect */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Flash blue effect */
+@keyframes flashblue{
+    from,to {
+        color: #000000
+    }
+
+    50% {
+        color: #0056b3
+    }
+}
+
+
+/* Flash red effect */
+@keyframes flashred {
+    from,to{
+        color: #000000
+    }
+    50% {
+        color: #ff0000
+    }
+}
+
+
+body {
+    padding-top: 50px;
+}
+
+#home {
+    scroll-margin-top: 70px;
+}
+
+#projects {
+    scroll-margin-top: 70px;
+}
+
+#contact {
+    scroll-margin-top: 50px;
 }

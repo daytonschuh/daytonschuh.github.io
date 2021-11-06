@@ -1,201 +1,165 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content>
-		<meta name="author" content>
-		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
-		<title>Dayton Schuh</title>
-		<!-- Bootstrap -->
-		<link href="css/core/bootstrap.min.css" rel="stylesheet">
-		<link href="css/custom/index.css" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description">
+    <meta name="author" content="Dayton Schuh">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>Dayton Schuh</title>
 
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/core/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/custom/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/custom/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/custom/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/custom/util.css">
-	<link rel="stylesheet" type="text/css" href="css/custom/main.css">
-<!--===============================================================================================-->
+    <!-- Bootstrap -->
+    <link href="css/core/bootstrap.min.css" rel="stylesheet">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/core/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/custom/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/custom/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/custom/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/custom/util.css">
+    <link rel="stylesheet" type="text/css" href="css/custom/main.css">
+    <!--===============================================================================================-->
+    <link href="css/custom/index.css" rel="stylesheet">
 
-	</head>
+</head>
 
-	<body>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-		
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav ml-auto col-md-3">
+                    <li class="nav-item active">
+                        <a class="nav-link anchor" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
+    <main role="main">
+        <!-- Start Home Section -->
+        <section id="home">
+            <div class="jumbo jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 avcenter">
+                            <img class="img-responsive avatar" src="images/profile.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <h1>
+                                <a href="https://github.com/daytonschuh" id="helloWorldTypo" class="display-1 typowrite" data-period="2000" data-type='[ "Hllo W", "Hello World!" ]'>
+                                </a>
+                            </h1>
+                            <p class="fade-in-5 display-4">I'm <span class="contact100-more-highlight">Dayton Schuh</span>, a software developer passionate about making life simple.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Home Section-->
+        <!-- Start Projects Section-->
+        <section id="projects">
+            <div class="container">
+                <h1>Projects</h1>
+                <small>(I do intend to make these all live demos... Just as soon as I learn how.)</small>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Out Of The Park</h2>
+                        <p>An application to act as a central hub for coaches, parents, and players of youth sports leagues. Features include users, statistics, seasons, playbooks and more in a microservice architecture!</p>
+                        <p><a class="btn btn-secondary" href="https://github.com/orgs/OutOfTheParkAtRevature/repositories" role="button" target="_blank">View project »</a></p><br>
+                    </div>
 
-					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
-					</li>
+                    <div class="col-md-4">
+                        <h2>InHarmony</h2>
+                        <p>A social space for independent musicians utilizing C#, .NET Wep API, Angular, JavaScript and TypeScript. Uses third-party APIs from SoundCloud and Spotify to retrieve and play songs.</p>
+                        <p><a class="btn btn-secondary" href="https://github.com/12142020-dotnet-uta/P2_RepeatCommitters" role="button" target="_blank">View project »</a></p><br>
+                    </div>
 
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+                    <div class="col-md-4">
+                        <h2>Risky Business</h2>
+                        <p>An online shopping project to explore the repository pattern. Heavily inspired by Risk of Rain 2. (Have you listened to the <a href="https://www.youtube.com/watch?v=RUN6Kqd9xgs">soundtrack</a>? It's <span class="contact100-more-highlight">amazing</span>.)</p>
+                        <p><a class="btn btn-secondary" href="https://github.com/daytonschuh/RiskyBusiness" role="button" target="_blank">View project »</a></p><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Bithub</h2>
+                        <p>A social media companion app for Github. This project uses the Github API to gather stats about users, measure performance <span style="color:#ff4b5a">(for friendly competition, of course)</span>, and pair likeminded developers for projects. </p>
+                        <p><a class="btn btn-secondary" href="https://www.github.com/daytonschuh/bithub" role="button" target="_blank">View project »</a></p><br>
+                    </div>
 
-		<main role="main">
+                    <div class="col-md-4">
+                        <h2>Whodat</h2>
+                        <p>A machine learning camera with facial recognition. This project was originally conceptualized for use with a raspberry pi; however, it's been adapted to work as a webapp.</p>
+                        <p><a class="btn btn-secondary" href="https://www.github.com/daytonschuh/whodat" role="button" target="_blank">View project »</a></p><br>
+                    </div>
 
-			<!-- Main jumbotron for a primary marketing message or call to action -->
-			<div class="jumbotron"><br><br>
+                    <div class="col-md-4">
+                        <h2>Mock Reddit</h2>
+                        <p>A backend web design exploration of APIs. This project was built over a semester. It includes a runbook with specified details, system testing and load testing.</p>
+                        <p><a class="btn btn-secondary" href="https://www.github.com/daytonschuh/mockreddit" role="button" target="_blank">View project »</a></p><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Projects Section -->
+        <!-- Start Contact Section -->
+        <section id="contact">
+            <div class="jumbo jumbotron">
+                <div class="container">
+                    <h1>Get In Touch</h1><hr>
+                    <div class="container-contact100">
+                        <button class="contact100-btn-show">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
 
-				<div class="container">
+        <footer>
+            <span class="contact100-more">
+                Made with love by <span class="contact100-more-highlight">@daytonschuh</span>
+            </span>
+        </footer>
 
-					<div class="row">
+    </main>
 
-						<div class="col-md-4">
-							<img class="img-responsive avatar" src="images/profile.jpg">
-						</div>
-						<div class="col-md-8">
-						<h1 class="display-3">Dayton Schuh</h1>
-						<p class="about">My first loves were Super Mario 64, Super Smash Bros. and Rampage.
-							By the time I got my first computer, I was in middle school and MapleStory was all the rage.
-							I can't begin to tell you how many hours I sunk into that game.
-							I mean, I would wake up at 3 am for better chances to get into party quests. It was bad.
-							I was addicted to the friendly competition of strength and the overwhelming sense of community.
-							Thus, MapleStory was the game that solidified my future.<br><br>
-							I took my first courses for programming and animation during that summer.
-							It's been many years since then and I've been exposed to so many other interesting avenues through my studies.
-							Now, I've graduated from California State University Fullerton with a bachelor's degree in computer science and
-							I'm open to learning anything and everything; but I'll never forget what led me here.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/custom/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/custom/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/custom/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/custom/popper.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/custom/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/custom/main.js"></script>
 
-
-			<!-- Start Projects Section-->
-			<div class="container">
-				<h1>Projects</h1><hr>
-				<div class="row">
-
-					
-					<div class="col-md-4">
-						<h2>Bithub</h2>
-						<p>A social media companion app for Github. This project uses the Github API to gather stats about users, measure performance <span style="color:#ff4b5a">(for friendly competition, of course)</span>, and pair likeminded developers for projects. </p>
-						<p><a class="btn btn-secondary" href="https://www.github.com/daytonschuh/bithub" role="button" target="_blank">View project »</a></p><br>
-					</div>
-
-					<div class="col-md-4">
-			            <h2>Whodat</h2>
-						<p>A machine learning camera with facial recognition. This project was originally conceptualized for use with a raspberry pi; however, it's been adapted to work as a webapp.</p>
-						<p><a class="btn btn-secondary" href="https://www.github.com/daytonschuh/whodat" role="button" target="_blank">View project »</a></p><br>
-					</div>
-					
-					<div class="col-md-4">
-						<h2>Mock Reddit</h2>
-						<p>A backend web design exploration of APIs. This project was built over a semester. It includes a runbook with specified details, system testing and load testing.</p>
-						<p><a class="btn btn-secondary" href="https://www.github.com/daytonschuh/mockreddit" role="button" target="_blank">View project »</a></p><br>
-					</div>
-				</div>
-				<br><br>
-			</div> <!-- End Projects Section -->
-
-
-			<!-- Start Contact Section -->
-			<div class="jumbotron">
-				<div class="container">
-					<h1>Get In Touch</h1><hr>
-				
-					<div class="contact">
-						<div class="container-contact100">
-
-							<button class="contact100-btn-show">
-								<i class="fa fa-envelope-o" aria-hidden="true"></i>
-							</button>
-
-							<div class="wrap-contact100">
-								<button class="contact100-btn-hide">
-									<i class="fa fa-close" aria-hidden="true"></i>
-								</button>
-
-								<form class="contact100-form validate-form">
-
-									<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
-										<span class="label-input100">Your Name</span>
-										<input class="input100" type="text" name="name" placeholder="Enter your name">
-										<span class="focus-input100"></span>
-									</div>
-
-									<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-										<span class="label-input100">Email</span>
-										<input class="input100" type="text" name="email" placeholder="Enter your email address">
-										<span class="focus-input100"></span>
-									</div>
-
-									<div class="wrap-input100 validate-input" data-validate = "Message is required">
-										<span class="label-input100">Message</span>
-										<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-										<span class="focus-input100"></span>
-									</div>
-
-									<div class="container-contact100-form-btn">
-										<button class="contact100-form-btn">
-											<span>
-											Submit
-											<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-											</span>
-										</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> <!-- End Contact Section -->
-
-			<span class="contact100-more" style="text-align:center">
-				Made with love by <span class="contact100-more-highlight">@daytonschuh</span>
-			</span>
-
-		</main>
-
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-		<script src="js/custom/popper.min.js"></script>
-		<script src="js/core/bootstrap.min.js"></script>
-
-		<!--===============================================================================================-->
-	<script src="js/custom/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/custom/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/custom/popper.js"></script>
-	<script src="js/core/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/custom/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/custom/moment.min.js"></script>
-	<script src="js/custom/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="js/custom/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-	<script src="js/custom/map-custom.js"></script>
-<!--===============================================================================================-->
-	<script src="js/custom/main.js"></script>
-	</body>
+</body>
 </html>
