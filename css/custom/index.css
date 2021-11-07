@@ -22,6 +22,11 @@ footer {
     text-indent: -36px;
 }
 
+.jumbo{
+    padding-bottom: 6em;
+    padding-top: 6em;
+}
+
 .typowrite {
     color: #000000;
     border-right: 0.08em solid #343a40;
